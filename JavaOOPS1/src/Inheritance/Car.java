@@ -7,6 +7,10 @@ public class Car extends Vehicle {
 		System.out.println("Car color is" + color + " maxspeed " + maxSpeed);
 	}
 	
+	public Car() {
+		super(100);
+		System.out.println("Car Constructor");
+	}
 	//Function overriding
 	public void print() {
 		System.out.println("Car color " + color + " maxspeed" + maxSpeed);

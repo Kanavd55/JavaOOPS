@@ -16,4 +16,8 @@ public class Vehicle {
 	public void setWheels(int wheels) {
 		this.wheels=wheels;
 	}
+	
+	public Vehicle(int num) {
+		System.out.println("Vehicle Constructor");
+	}
 }

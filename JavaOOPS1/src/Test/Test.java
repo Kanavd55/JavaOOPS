@@ -6,6 +6,6 @@ public class Test {
 		student s1 = new student("Karan",36);
 		s1.name="Kanav";
 		System.out.println(s1.name);
-		Vehicle v1 = new Vehicle();
+		Vehicle v1 = new Vehicle(123);
 	}
 }

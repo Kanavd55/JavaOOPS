@@ -15,5 +15,9 @@ public class VehicleUse {
 		c.setWheels(4);
 		System.out.println(c.getWheels());
 		System.out.println(b.getWheels());
+		Vehicle v2 = new Car();
+		Car d =(Car) v2;
+		v2.print();
+		d.numDoors=5;
 	}
 }
