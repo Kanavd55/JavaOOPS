@@ -5,7 +5,7 @@ public class Vehicle {
 	String color;
 	private int wheels;
 	
-	public void print() {
+	final void print() {
 		System.out.println("Vehicle"+" color "+color+" maxSpeed " + maxSpeed);
 	}
 	
