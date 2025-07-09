@@ -9,4 +9,8 @@ public class Bicycle extends Vehicle {
 	public boolean isMotorized() {
 		return false;
 	}
+	
+	public String getColor() {
+		return "Blue";
+	}
 }
