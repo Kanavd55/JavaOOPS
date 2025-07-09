@@ -1,9 +1,10 @@
 package Inheritance;
 
-public final class Vehicle {
+public abstract class Vehicle {
 	protected int maxSpeed;
 	String color;
 	private int wheels;
+	public abstract boolean isMotorized();
 	
 	void print() {
 		System.out.println("Vehicle"+" color "+color+" maxSpeed " + maxSpeed);

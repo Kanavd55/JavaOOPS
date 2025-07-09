@@ -5,4 +5,8 @@ public class Bicycle extends Vehicle {
 		super(100);
 		System.out.println("Bicycle constructor");
 	}
+	
+	public boolean isMotorized() {
+		return false;
+	}
 }

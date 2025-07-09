@@ -15,4 +15,8 @@ public class Car extends Vehicle {
 	public void print() {
 		System.out.println("Car color " + color + " maxspeed" + maxSpeed);
 	}
+	
+	public boolean isMotorized() {
+		return true;
+	}
 }
