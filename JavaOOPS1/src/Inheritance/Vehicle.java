@@ -1,11 +1,11 @@
 package Inheritance;
 
-public class Vehicle {
+public final class Vehicle {
 	protected int maxSpeed;
 	String color;
 	private int wheels;
 	
-	final void print() {
+	void print() {
 		System.out.println("Vehicle"+" color "+color+" maxSpeed " + maxSpeed);
 	}
 	
