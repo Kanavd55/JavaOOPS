@@ -23,6 +23,7 @@ public class Vehicle implements VehicleInterface {
 	
 	@Override
 	public boolean isMotorized() {
+		System.out.println(time);
 		return true;
 	}
 	
