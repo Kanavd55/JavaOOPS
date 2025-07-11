@@ -6,7 +6,6 @@ public class temp extends Vehicle {
 		System.out.println("temp constructor");
 	}
 	public void print() {
-		super.print();
 		System.out.println(super.getWheels());
 		System.out.println("This is " + maxSpeed );
 	}
